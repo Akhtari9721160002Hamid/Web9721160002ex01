@@ -1,0 +1,140 @@
+.profile-update {
+    padding: 5rem 0;
+}
+
+/* prevent from overflowing image */
+
+.thumbnail {
+    max-width: 100%;
+}
+
+/* * */
+
+.image-thumb {
+    text-align: center;
+}
+
+/* change default button styles and animations */
+
+.profile-update .btn {
+    background: #0073b7;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em 1rem;
+    padding: 1em 2em;
+    color: #ffffff;
+}
+
+.profile-update .btn:hover, .profile-update .btn:focus {
+    border-color: #67a1c3;
+    color: #ffffff;
+    -webkit-box-shadow: inset -10em 0 0 0 #67a1c3, inset 10em 0 0 0 #67a1c3;
+    box-shadow: inset -10em 0 0 0 #67a1c3, inset 10em 0 0 0 #67a1c3;
+}
+
+.form-edit-buttons-wrapper .save-button, .form-edit-buttons-wrapper .close-button {
+    border: 2px solid;
+    font: inherit;
+    margin: 0.5em 0;
+    padding: 1em 2em;
+    color: #ffffff;
+}
+
+.form-edit-buttons-wrapper .save-button {
+    background: #2ecc71;
+}
+
+.form-edit-buttons-wrapper .close-button {
+    background: #e74c3c;
+}
+
+.form-edit-buttons-wrapper .save-button a,
+.form-edit-buttons-wrapper .close-button a {
+    color: #ffffff !important;
+}
+
+.form-edit-buttons-wrapper .save-button:hover,
+.form-edit-buttons-wrapper .save-button:focus {
+    border-color: #27ae60;
+    -webkit-box-shadow: inset -10em 0 0 0 #27ae60, inset 10em 0 0 0 #27ae60;
+    box-shadow: inset -10em 0 0 0 #27ae60, inset 10em 0 0 0 #27ae60;
+}
+
+.form-edit-buttons-wrapper .close-button:hover,
+.form-edit-buttons-wrapper .close-button:focus {
+    border-color: #c0392b;
+    -webkit-box-shadow: inset -10em 0 0 0 #c0392b, inset 10em 0 0 0 #c0392b;
+    box-shadow: inset -10em 0 0 0 #c0392b, inset 10em 0 0 0 #c0392b;
+}
+
+@media only screen and (min-width: 1024px) {
+    .form-edit-buttons-wrapper .btn {
+        min-width: 10em;
+    }
+}
+
+/* prevent from file upload button issue !!  */
+
+.single-file-upload .btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-file-upload .btn-file, .single-file-upload .btn-image {
+    font-size: 1.4rem;
+    padding: 0;
+}
+
+.single-file-upload .btn-file {
+    padding: 6px 10px;
+}
+
+.single-file-upload .error-message {
+    color: #a94442;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.single-file-upload .input-group-btn {
+    vertical-align: top;
+}
+
+.single-file-upload .btn-file input[type=file],
+.single-file-upload .btn-image input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100%;
+    text-align: right;
+    filter: alpha(opacity = 0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+
+.single-file-upload input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+}
+
+.profile-form-card {
+    margin: 12px auto;
+    border: 0 solid white;
+    -webkit-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.11);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 1rem 5rem;
+}
+
+.profile-form-card .card-title {
+    padding-bottom: 15px;
+}
+
+/* * */
